@@ -1,0 +1,52 @@
+@import 'colors';
+
+.home{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.productcard{
+    background-color: $tertiary;
+    width: 290px;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+    border-radius:10%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        h4{
+            margin: 1rem;
+
+        }
+      
+    }
+    button{
+        cursor: pointer;
+        // background-color: $secondary;
+        border: none;
+        border-radius: 50px;
+        padding: 1rem;
+        transition: all 0.5s;
+        font-weight: 500;
+        width: 70%;
+        background-color: 	#f0bf66;
+        // background: rgb(175, 173, 216);
+        // background: linear-gradient(79deg, rgb(206, 215, 228) 0%, rgb(140, 154, 184) 23%, rgb(79, 119, 206) 86%);
+        &:hover{
+            background-color: rgb(231, 184, 96);
+        }
+       
+        
+        
+    }
+    &:hover{
+        transform: scale(1.05);
+    }
+}

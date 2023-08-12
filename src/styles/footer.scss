@@ -1,0 +1,71 @@
+        @import 'colors';
+
+
+        footer{
+            // background-color: $first;
+            background-color: 	#ffff;
+            // background: linear-gradient(to right, #578ed6, #5295c2);
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            height: 23vh;
+            width: auto;
+            color: $primarydark;
+            display: grid;
+            grid-template-columns: 4fr 1fr ;
+            padding: 1rem;
+
+
+            
+
+            >div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+
+                >h1{
+                    font: 800 4.6rem 'Poppins';
+                    // text-transform: uppercase;   
+                    // color: $primarydark;
+                    background-image: url(./5674339.jpg);
+                    background-size: cover;
+                    background-position: center	;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                }
+                >article{
+                    display: flex;
+                }
+                >p{
+                    font: 400 0.7rem "Poppins";
+
+                }
+                >h5{
+                    
+                    font: 400 1.5rem "Poppins";
+                    margin: 1rem 0;
+                    text-align: center;
+                    border-bottom: 1px solid black;
+                    
+                }
+
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color:  red;
+                    margin: 5px;
+                }
+                a{
+                    color:$primarydark;
+                    font: 700 0.9rem "Poppins";
+                    margin: 4px;
+                    text-decoration: none;
+                    &:hover{
+                        color: $tertiary;
+                    
+                    }
+                }
+            }
+            
+        }
