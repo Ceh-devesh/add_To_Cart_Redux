@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Ceh-devesh.io/add_To_Cart_Redux/static/css/main.673f1c2e.css",
-    "main.js": "/Ceh-devesh.io/add_To_Cart_Redux/static/js/main.6ffb3b5a.js",
-    "static/media/5674339.jpg": "/Ceh-devesh.io/add_To_Cart_Redux/static/media/5674339.63478fecca2756b31fe0.jpg",
-    "index.html": "/Ceh-devesh.io/add_To_Cart_Redux/index.html",
-    "main.673f1c2e.css.map": "/Ceh-devesh.io/add_To_Cart_Redux/static/css/main.673f1c2e.css.map",
-    "main.6ffb3b5a.js.map": "/Ceh-devesh.io/add_To_Cart_Redux/static/js/main.6ffb3b5a.js.map"
+    "main.css": "/Ceh-devesh/add_To_Cart_Redux/static/css/main.a35ddc47.css",
+    "main.js": "/Ceh-devesh/add_To_Cart_Redux/static/js/main.6ffb3b5a.js",
+    "static/media/5674339.jpg": "/Ceh-devesh/add_To_Cart_Redux/static/media/5674339.63478fecca2756b31fe0.jpg",
+    "index.html": "/Ceh-devesh/add_To_Cart_Redux/index.html",
+    "main.a35ddc47.css.map": "/Ceh-devesh/add_To_Cart_Redux/static/css/main.a35ddc47.css.map",
+    "main.6ffb3b5a.js.map": "/Ceh-devesh/add_To_Cart_Redux/static/js/main.6ffb3b5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.673f1c2e.css",
+    "static/css/main.a35ddc47.css",
     "static/js/main.6ffb3b5a.js"
   ]
 }
